@@ -5,7 +5,7 @@ public class WordCensor {
         Scanner scanner = new Scanner(System.in);
 
         // Take user input
-        System.out.println("Enter a sentence:");
+        System.out.println("Enter a sentence: ");
         String input = scanner.nextLine();
 
         // Define bad words (manually, no arrays or lists)
@@ -22,7 +22,7 @@ public class WordCensor {
         censored = censorWord(censored, badWord4);
 
         // Output censored text
-        System.out.println("Censored text:");
+        System.out.println("Censored: ");
         System.out.println(censored);
 
         scanner.close();
